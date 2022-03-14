@@ -36,3 +36,11 @@ const kede = ["kede"];
 const baldai3 = spintele.concat(baldai2,kede);
 
 //dar kazkas
+//mowe
+
+const baldai4 = ['lempa', 'lentynos', 'sofa', 'stalas'];
+baldai4.splice(0, 1);
+baldai4.splice(2, 1);
+const spintelee = ['spintele'];
+const kedee = ["kede"];
+const baldai5 = spintelee.concat(baldai4,kedee);
