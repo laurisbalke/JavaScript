@@ -16,3 +16,9 @@ let dabartiniaiMetai = 2022;
 let sakinys = `${vardas} ${surname} yra ${dabartiniaiMetai - gimimoMetai} metu amziaus`;
 console.log(sakinys);
 console.log(sakinys.length);
+
+let text1 = "mazas";
+let text2 = "bobas";
+
+let result = text1.concat(" ",text2);
+
