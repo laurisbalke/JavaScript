@@ -34,3 +34,5 @@ baldai2.splice(2, 1);
 const spintele = ['spintele'];
 const kede = ["kede"];
 const baldai3 = spintele.concat(baldai2,kede);
+
+//dar kazkas
