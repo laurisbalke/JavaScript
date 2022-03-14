@@ -44,3 +44,27 @@ baldai4.splice(2, 1);
 const spintelee = ['spintele'];
 const kedee = ["kede"];
 const baldai5 = spintelee.concat(baldai4,kedee);
+
+// Skaiciai
+let pirmasSkaicius = 12;
+let antrasSkaicius = 7;
+let liekana = pirmasSkaicius%antrasSkaicius;
+let suma = pirmasSkaicius + antrasSkaicius;
+let daugyba = pirmasSkaicius * antrasSkaicius;
+let kelimasKampu = pirmasSkaicius ** antrasSkaicius;
+let kelimasKampuOPoToDalybaIsAntroSkaiciaus = (pirmasSkaicius ** antrasSkaicius) / antrasSkaicius;
+let kelimasKampuIrSaknisIsAntroSkaiciaus = Math.pow(kelimasKampu, 1/antrasSkaicius);
+console.log("Hello World")
+
+let vardas = "laurynas";
+let surname = "balke";
+let gimimoMetai = 1994;
+let dabartiniaiMetai = 2022;
+let sakinys = `${vardas} ${surname} yra ${dabartiniaiMetai - gimimoMetai} metu amziaus`;
+console.log(sakinys);
+console.log(sakinys.length);
+
+let text1 = "mazas";
+let text2 = "bobas";
+
+let result = text1.concat(" ",text2);
